@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    .blok__footer {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+    }
+}
+

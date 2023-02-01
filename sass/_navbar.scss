@@ -1,0 +1,41 @@
+
+/*/BOTON NAV/*/
+nav{
+    margin-top: -15px;
+}
+
+.boton__nav{
+    background-color: black;
+}
+
+.boton__color {
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+/*/NAVEGACION/*/
+.logo-chico {
+    width: 50px;
+    height: 50px;
+}
+
+
+.ul__nav {
+    padding: 35px; 
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    li {
+        margin: 0px 15px;
+        a {
+            color: white;
+            font-size: 25px;
+            font-weight:bold;
+            font-family: 'Roboto', sans-serif;
+            &:hover{
+                color: gray;
+            }
+        }
+    }
+}
